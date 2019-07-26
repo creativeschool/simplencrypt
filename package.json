@@ -1,0 +1,16 @@
+{
+  "name": "simplencrypt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:creativeschool/simplencrypt.git",
+  "author": "ZhangZisu <admin@zhangzisu.cn>",
+  "license": "MIT",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^1.7.1",
+    "node-gyp": "^5.0.3"
+  },
+  "scripts": {
+    "postinstall": "node-gyp build"
+  }
+}
